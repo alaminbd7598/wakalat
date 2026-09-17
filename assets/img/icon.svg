@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 260" width="260" height="260">
+
+<g transform="translate(14,10) scale(1.0)">
+  <defs>
+    <mask id="wkm" maskUnits="userSpaceOnUse" x="-20" y="-20" width="300" height="300">
+      <rect x="-20" y="-20" width="300" height="300" fill="#fff"/>
+      <path d="M2 206 C 28 128, 118 92, 236 102 C 244 103, 244 113, 236 112 C 130 106, 56 140, 18 214 Z" fill="#000" stroke="#000" stroke-width="16" stroke-linejoin="round"/>
+      <g transform="translate(112,-6) rotate(42 60 64)"><path fill="#000" stroke="#000" stroke-width="14" stroke-linejoin="round" d="M60 0 C 66 0, 68 8, 68 18 L68 52 L122 86 L122 98 L68 80 L68 108 L84 121 L84 129 L60 123 L36 129 L36 121 L52 108 L52 80 L-2 98 L-2 86 L52 52 L52 18 C 52 8, 54 0, 60 0 Z"/></g>
+    </mask>
+  </defs>
+  <!-- globe -->
+  <g fill="none" stroke="#E8000D" stroke-width="9" stroke-linecap="round" mask="url(#wkm)">
+    <circle cx="108" cy="136" r="72"/>
+    <path d="M108 64 L108 208" stroke-width="7"/>
+    <path d="M36 136 L180 136" stroke-width="7"/>
+    <path d="M50 98 L166 98" stroke-width="7"/>
+    <path d="M50 174 L166 174" stroke-width="7"/>
+    <ellipse cx="108" cy="136" rx="34" ry="72" stroke-width="7"/>
+  </g>
+  <!-- swoosh -->
+  <path fill="#E8000D" d="M2 206 C 28 128, 118 92, 236 102 C 244 103, 244 113, 236 112 C 130 106, 56 140, 18 214 Z"/>
+  <path fill="#E8000D" d="M22 214 C 74 246, 156 236, 204 176 C 210 168, 218 174, 212 182 C 158 250, 70 258, 12 222 Z"/>
+  <!-- plane -->
+  <g transform="translate(112,-6) rotate(42 60 64)">
+    <path fill="#E8000D" d="M60 0 C 66 0, 68 8, 68 18 L68 52 L122 86 L122 98 L68 80 L68 108 L84 121 L84 129 L60 123 L36 129 L36 121 L52 108 L52 80 L-2 98 L-2 86 L52 52 L52 18 C 52 8, 54 0, 60 0 Z"/>
+  </g>
+</g>
+</svg>
